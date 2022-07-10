@@ -1,1 +1,1 @@
-To start, launch the "homepage.html" file
+To start, launch the "registration.html" file
