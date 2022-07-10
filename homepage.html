@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            .topbar-user {
+                height: 75px;
+                width: 250px;
+                float: right;
+            }
+            .userprofile {
+                width:40px;
+                float: left;
+                margin-top: 3px;
+            }
+            .username {
+                float: right;
+                margin-left: 10px;
+                font-family: 'Trebuchet MS';
+                font-size: 15px;
+                font-weight:700;
+                text-align: right;
+
+            }
+            .userbutton {
+                background-color:#d3d3d3 ;
+                white-space: nowrap;
+                border: none;
+                margin: 12px;
+                padding-right: 25px;
+                padding-left: 25px;
+                padding-top: 8px;
+                text-align: center;
+                font-family:'Trebuchet MS';
+                font-size: 12px;
+            }
+            .logo {
+                width: 80px;
+                float: right;
+            }
+            .topbar-logo {
+                float: left;
+                width: 110px;
+            }
+            .topbar-container {
+                text-align:center;
+                padding-top: 10px;
+                padding-bottom: 15px;
+                border-bottom: #d3d3d3 2px solid;
+                width: 1420px;
+                height:75px
+            }
+            .topbar-child {
+                float:right;
+                height: 100px;
+                width: 180px;
+            }
+            .topbar-button {
+                background-color:#df5652 ;
+                white-space: nowrap;
+                border: none;
+                color: white;
+                margin: 12px;
+                padding-right: 32px;
+                padding-left: 32px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                text-align: center;
+                font-family:'Trebuchet MS';
+                font-size: 12px;
+
+            }
+            .topbar-button:hover {
+                background-color: #55b9dd;
+            }
+            .background1 {
+                width:1420px;
+            }
+            .page1 {
+                height:600px;
+                width: 1420px;
+                position: absolute;
+                background: linear-gradient(to top right, #FFFFFF 0%, #7DE1FF 100%);
+            }
+            .page1-child {
+                height: 600px;
+                width: 710px;
+                float:left;
+            }
+            .children-image {
+                height: 700px;
+            }
+            .page1-slogan {
+                text-align:center;
+                color: black;
+                font-family:'Trebuchet MS';
+                font-size: 50px;
+                font-weight: bold;
+                padding-top:100px;
+            }
+            .page1-des {
+                text-align:center;
+                float: bottom;
+                color: #3a3b3c;
+                font-family:sans-serif;
+                font-size: 20px;
+            }
+            .tutor-button {
+                background-color:#df5652 ;
+                white-space: nowrap;
+                border: none;
+                color: white;
+                margin: 12px;
+                padding-right: 32px;
+                padding-left: 32px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                text-align: center;
+                font-family:'Trebuchet MS';
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="topbar-container">
+            <div style="width:100px;float:right;"></div>
+            <div class="topbar-user">
+                <a href="userportfolio.html">
+                    <button class="userbutton">
+                        <img class="userprofile" src="images/avatarprofile.png" alt="User profile pic">
+                        <p class="username">@claratan10</p>
+                    </button>
+                </a>
+            </div>
+            <div style="width:100px;float:right;"></div>
+            <div class="topbar-child">
+                <a href="">
+                    <button class="topbar-button">GAMES</button>
+                </a>
+            </div>
+            <div class="topbar-child">
+                <a href="resources.html">
+                    <button class="topbar-button">RESOURCES</button>
+                </a>
+            </div>
+            <div class="topbar-child">
+                <a href="tutors.html">
+                    <button class="topbar-button">OUR TUTORS</button>
+                </a>
+            </div>
+            <div class="topbar-logo">
+                <a href="homepage.html">
+                    <img src="images/logo.jpeg" class="logo">
+                </a>
+            </div>
+        </div>
+        <div class="page1">
+            <div class="page1-child">
+                <div>
+                    <p class="page1-slogan">Excel together</p>
+                    <div>
+                        <p class="page1-des">We're on a mission to make </p>
+                        <p class="page1-des">high-quality education accessible for all!</p>
+                    </div>
+                </div>
+                <div>
+                    <a href="tutors.html">
+                        <div style="width:270px;height:100px;float:left;"></div>
+                        <button class="tutor-button">
+                            Find a tutor!
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="page1-child">
+                <img src="images/children_image.png" class="children-image">
+            </div>
+        </div>
+
+    </body>
+</html>

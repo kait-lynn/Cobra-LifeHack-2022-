@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Portfolio</title>
+        <style>
+            table,
+            th,
+            td {
+              padding: 10px;
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+            table {
+            width: 50%;
+            }
+            table.center {
+            margin-left: auto; 
+            margin-right: auto;
+            }
+            h1 {text-align: center;}
+            h2 {text-align: center;}
+            h3 {text-align: center;}
+            body {text-align: center;}
+          </style>
+    </head>
+    <body>
+       <h1>User Portfolio</h1> 
+       <table class="center">
+        <tr>
+            <th>Name</th>
+            <td>Clara Tan</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>12</td>
+        </tr>
+        <tr>
+            <th>Current Education Level</th>
+            <td>Primary 6</td>
+        </tr>
+        <tr>
+            <th>Subjects Taken</th>
+            <td>English<br>Normal Chinese <br>Mathematics <br>Science <br>Higher Chinese</td>
+        </tr>
+        <tr>
+            <th>Number of Hours of Tuition Received</th>
+            <td>10</td>
+        </tr>
+       </table>
+       <br>
+       <h2>Username</h2>
+       <table class="center">
+        <tr>
+            <th>Username:</th>
+            <td>claratan10</td>
+        </tr>
+        <tr>
+            <th>Password:</th>
+            <td>********</td>
+        </tr>
+       </table>
+    </body>
+    <body>
+        <h3>Change Username</h3>
+        
+        <form method="post" action="">
+        
+        <label for="newUsername">New Username:</label>
+        <input type="username" id="newUsername" name="newUsername" title="New username" />
+        <br>
+        <br>
+        <label for="confirmUsername">Confirm Username:</label>
+        <input type="username" id="confirmUsername" name="confirmUsername" title="Confirm new username" />
+        
+        <p class="form-actions">
+        <input type="submit" value="Change Username" title="Change username" />
+        </p>
+        
+        </form>
+</body>
+    <body>
+            <h3>Change Password</h3>
+            <form id="password-reset-form">
+                <div id="alert"></div>
+              
+                <label for="password">Password</label>
+                <input type="password" id="password">
+              <br>
+              <br>
+                <label for="password-verify">Re-type password</label>
+                <input type="password" id="password-verify">
+              <br>
+              <br>
+                <button type="submit">Reset password</button>
+              </form>
+    </body>
+</html>

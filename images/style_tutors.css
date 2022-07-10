@@ -1,0 +1,16 @@
+.tutor {
+    float: left;
+    text-align: center;
+}
+
+.searchbar {
+    padding-left: 10px;
+}
+
+.tutor img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float: left;
+}
+
